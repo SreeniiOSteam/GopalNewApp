@@ -1,0 +1,1028 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180876B11F8522350080365A /* UploadGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180876B01F8522350080365A /* UploadGeneralViewController.swift */; };
+		180876B31F85226B0080365A /* UploadCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180876B21F85226B0080365A /* UploadCaseViewController.swift */; };
+		180876B51F8522830080365A /* DownloadGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180876B41F8522830080365A /* DownloadGeneralViewController.swift */; };
+		180876B71F8522910080365A /* DownloadCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180876B61F8522910080365A /* DownloadCaseViewController.swift */; };
+		180876B91F85260E0080365A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180876B81F85260E0080365A /* Toast.swift */; };
+		181813811F8AB65A00DB498B /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181813801F8AB65A00DB498B /* CalendarTableViewCell.swift */; };
+		181813831F8ABA6A00DB498B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181813821F8ABA6A00DB498B /* AssetsLibrary.framework */; };
+		181813851F8ABB6100DB498B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181813841F8ABB6100DB498B /* Photos.framework */; };
+		182917011F8512AF00B0A24F /* UploadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182917001F8512AF00B0A24F /* UploadTableViewCell.swift */; };
+		182917031F8512BB00B0A24F /* DownloadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182917021F8512BB00B0A24F /* DownloadTableViewCell.swift */; };
+		1887188C1F9DD57E0046D4E0 /* SubCalendarRespVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887188B1F9DD57E0046D4E0 /* SubCalendarRespVo.swift */; };
+		189824F91F8FF1EE00EF06B0 /* CalendarRespVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189824F81F8FF1EE00EF06B0 /* CalendarRespVo.swift */; };
+		18CE91D91F8B710D00E576CD /* NoCopyPasteUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE91D81F8B710D00E576CD /* NoCopyPasteUITextField.swift */; };
+		18CE91DB1F8B713A00E576CD /* TextFieldMaxLengths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE91DA1F8B713A00E576CD /* TextFieldMaxLengths.swift */; };
+		18D0A7391F8643F2002A5963 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A7381F8643F2002A5963 /* CustomAlertViewController.swift */; };
+		18D0A73B1F864FBD002A5963 /* CustomSecondAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A73A1F864FBD002A5963 /* CustomSecondAlertViewController.swift */; };
+		4DA30859942B30D5EE4FB939 /* Pods_DIGI_LEGAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182FD0427E3684A4D71014E3 /* Pods_DIGI_LEGAL.framework */; };
+		5EBF0168649FF33431499B5E /* Pods_DIGI_LEGALTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5145DBA125B9F54B89A65DA /* Pods_DIGI_LEGALTests.framework */; };
+		CCED5F95DF5726621A188D6D /* Pods_DIGI_LEGALUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D414293E557B10EDB0C514 /* Pods_DIGI_LEGALUITests.framework */; };
+		F3011A531F83634D00091DC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A521F83634D00091DC1 /* AppDelegate.swift */; };
+		F3011A551F83634D00091DC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A541F83634D00091DC1 /* ViewController.swift */; };
+		F3011A581F83634D00091DC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3011A561F83634D00091DC1 /* Main.storyboard */; };
+		F3011A5B1F83634D00091DC1 /* DIGI_LEGAL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3011A591F83634D00091DC1 /* DIGI_LEGAL.xcdatamodeld */; };
+		F3011A5D1F83634D00091DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3011A5C1F83634D00091DC1 /* Assets.xcassets */; };
+		F3011A601F83634D00091DC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3011A5E1F83634D00091DC1 /* LaunchScreen.storyboard */; };
+		F3011A6B1F83634E00091DC1 /* DIGI_LEGALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A6A1F83634E00091DC1 /* DIGI_LEGALTests.swift */; };
+		F3011A761F83634E00091DC1 /* DIGI_LEGALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A751F83634E00091DC1 /* DIGI_LEGALUITests.swift */; };
+		F3011A861F83675800091DC1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3011A851F83675800091DC1 /* SWRevealViewController.m */; };
+		F3011A881F8378F100091DC1 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A871F8378F100091DC1 /* SideMenuViewController.swift */; };
+		F3011A8A1F837C0800091DC1 /* RespVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A891F837C0800091DC1 /* RespVo.swift */; };
+		F3011AAA1F837E9200091DC1 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A8B1F837E9200091DC1 /* CustomDateFormatTransform.swift */; };
+		F3011AAB1F837E9200091DC1 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A8C1F837E9200091DC1 /* DataTransform.swift */; };
+		F3011AAC1F837E9200091DC1 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A8D1F837E9200091DC1 /* DateFormatterTransform.swift */; };
+		F3011AAD1F837E9200091DC1 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A8E1F837E9200091DC1 /* DateTransform.swift */; };
+		F3011AAE1F837E9200091DC1 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A8F1F837E9200091DC1 /* DictionaryTransform.swift */; };
+		F3011AAF1F837E9200091DC1 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A901F837E9200091DC1 /* EnumOperators.swift */; };
+		F3011AB01F837E9200091DC1 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A911F837E9200091DC1 /* EnumTransform.swift */; };
+		F3011AB11F837E9200091DC1 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A921F837E9200091DC1 /* FromJSON.swift */; };
+		F3011AB21F837E9200091DC1 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A931F837E9200091DC1 /* HexColorTransform.swift */; };
+		F3011AB31F837E9200091DC1 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A941F837E9200091DC1 /* ImmutableMappable.swift */; };
+		F3011AB41F837E9200091DC1 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A951F837E9200091DC1 /* IntegerOperators.swift */; };
+		F3011AB51F837E9200091DC1 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A961F837E9200091DC1 /* ISO8601DateTransform.swift */; };
+		F3011AB61F837E9200091DC1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A971F837E9200091DC1 /* Map.swift */; };
+		F3011AB71F837E9200091DC1 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A981F837E9200091DC1 /* MapError.swift */; };
+		F3011AB81F837E9200091DC1 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A991F837E9200091DC1 /* Mappable.swift */; };
+		F3011AB91F837E9200091DC1 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A9A1F837E9200091DC1 /* Mapper.swift */; };
+		F3011ABA1F837E9200091DC1 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A9B1F837E9200091DC1 /* NSDecimalNumberTransform.swift */; };
+		F3011ABB1F837E9200091DC1 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A9C1F837E9200091DC1 /* Operators.swift */; };
+		F3011ABC1F837E9200091DC1 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A9D1F837E9200091DC1 /* ToJSON.swift */; };
+		F3011ABD1F837E9200091DC1 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A9E1F837E9200091DC1 /* TransformOf.swift */; };
+		F3011ABE1F837E9200091DC1 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011A9F1F837E9200091DC1 /* TransformOperators.swift */; };
+		F3011ABF1F837E9200091DC1 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011AA01F837E9200091DC1 /* TransformType.swift */; };
+		F3011AC01F837E9200091DC1 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011AA11F837E9200091DC1 /* URLTransform.swift */; };
+		F3011AC11F837E9200091DC1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3011AA21F837E9200091DC1 /* Info.plist */; };
+		F3011AC21F837E9200091DC1 /* ObjectMapper.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F3011AA41F837E9200091DC1 /* ObjectMapper.xcconfig */; };
+		F3011AC31F837E9200091DC1 /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3011AA51F837E9200091DC1 /* ObjectMapper-dummy.m */; };
+		F3011AC71F839A3100091DC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011AC61F839A3100091DC1 /* HomeViewController.swift */; };
+		F3011AC91F839ADD00091DC1 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011AC81F839ADD00091DC1 /* SideMenuTableViewCell.swift */; };
+		F3011ACB1F839BC600091DC1 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3011ACA1F839BC600091DC1 /* CalendarViewController.swift */; };
+		F306E9DE1F88C35D00F87088 /* MyTimeCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306E9DD1F88C35D00F87088 /* MyTimeCardsTableViewCell.swift */; };
+		F306E9E01F88C37800F87088 /* MyTimeCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306E9DF1F88C37800F87088 /* MyTimeCardsViewController.swift */; };
+		F311C67E1F8FA30C007416F1 /* DownloadShowFilesRespVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F311C67D1F8FA30C007416F1 /* DownloadShowFilesRespVo.swift */; };
+		F31AC99E1F862E7E0083A2FD /* DownloadGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31AC99D1F862E7E0083A2FD /* DownloadGeneralTableViewCell.swift */; };
+		F31AC9A01F862EA10083A2FD /* DownloadCaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31AC99F1F862EA10083A2FD /* DownloadCaseTableViewCell.swift */; };
+		F32831E91F9B193500423C19 /* SubDownloadRespVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32831E81F9B193500423C19 /* SubDownloadRespVo.swift */; };
+		F36655DE1FAA3E3E00E58FB6 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36655DD1FAA3E3E00E58FB6 /* EventKit.framework */; };
+		F3EF31551F8CDBCB00AF48A9 /* SubRespVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF31541F8CDBCB00AF48A9 /* SubRespVo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3011A671F83634E00091DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3011A471F83634D00091DC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3011A4E1F83634D00091DC1;
+			remoteInfo = "DIGI-LEGAL";
+		};
+		F3011A721F83634E00091DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3011A471F83634D00091DC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3011A4E1F83634D00091DC1;
+			remoteInfo = "DIGI-LEGAL";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0398DECF5F27850A7D571FF7 /* Pods-DIGI-LEGALTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGI-LEGALTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DIGI-LEGALTests/Pods-DIGI-LEGALTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15754FEAA3987D09FF95241C /* Pods-DIGI-LEGALTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGI-LEGALTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DIGI-LEGALTests/Pods-DIGI-LEGALTests.release.xcconfig"; sourceTree = "<group>"; };
+		180876B01F8522350080365A /* UploadGeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadGeneralViewController.swift; sourceTree = "<group>"; };
+		180876B21F85226B0080365A /* UploadCaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadCaseViewController.swift; sourceTree = "<group>"; };
+		180876B41F8522830080365A /* DownloadGeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadGeneralViewController.swift; sourceTree = "<group>"; };
+		180876B61F8522910080365A /* DownloadCaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadCaseViewController.swift; sourceTree = "<group>"; };
+		180876B81F85260E0080365A /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		181813801F8AB65A00DB498B /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
+		181813821F8ABA6A00DB498B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		181813841F8ABB6100DB498B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		182917001F8512AF00B0A24F /* UploadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTableViewCell.swift; sourceTree = "<group>"; };
+		182917021F8512BB00B0A24F /* DownloadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadTableViewCell.swift; sourceTree = "<group>"; };
+		182FD0427E3684A4D71014E3 /* Pods_DIGI_LEGAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIGI_LEGAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1887188B1F9DD57E0046D4E0 /* SubCalendarRespVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCalendarRespVo.swift; sourceTree = "<group>"; };
+		189824F81F8FF1EE00EF06B0 /* CalendarRespVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarRespVo.swift; sourceTree = "<group>"; };
+		18CE91D81F8B710D00E576CD /* NoCopyPasteUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoCopyPasteUITextField.swift; sourceTree = "<group>"; };
+		18CE91DA1F8B713A00E576CD /* TextFieldMaxLengths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldMaxLengths.swift; sourceTree = "<group>"; };
+		18D0A7381F8643F2002A5963 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		18D0A73A1F864FBD002A5963 /* CustomSecondAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSecondAlertViewController.swift; sourceTree = "<group>"; };
+		641E9616D4ABA7CE530C9CE5 /* Pods-DIGI-LEGALUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGI-LEGALUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DIGI-LEGALUITests/Pods-DIGI-LEGALUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C3C2B93D2193696736BC428 /* Pods-DIGI-LEGALUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGI-LEGALUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DIGI-LEGALUITests/Pods-DIGI-LEGALUITests.release.xcconfig"; sourceTree = "<group>"; };
+		973B1A04F55C7D1788A2CC06 /* Pods-DIGI-LEGAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGI-LEGAL.release.xcconfig"; path = "Pods/Target Support Files/Pods-DIGI-LEGAL/Pods-DIGI-LEGAL.release.xcconfig"; sourceTree = "<group>"; };
+		BD496E570EAD909AE7FB1A94 /* Pods-DIGI-LEGAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGI-LEGAL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DIGI-LEGAL/Pods-DIGI-LEGAL.debug.xcconfig"; sourceTree = "<group>"; };
+		D1D414293E557B10EDB0C514 /* Pods_DIGI_LEGALUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIGI_LEGALUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5145DBA125B9F54B89A65DA /* Pods_DIGI_LEGALTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIGI_LEGALTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3011A4F1F83634D00091DC1 /* DIGI-LEGAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DIGI-LEGAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3011A521F83634D00091DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3011A541F83634D00091DC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3011A571F83634D00091DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3011A5A1F83634D00091DC1 /* DIGI_LEGAL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DIGI_LEGAL.xcdatamodel; sourceTree = "<group>"; };
+		F3011A5C1F83634D00091DC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3011A5F1F83634D00091DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3011A611F83634D00091DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3011A661F83634E00091DC1 /* DIGI-LEGALTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DIGI-LEGALTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3011A6A1F83634E00091DC1 /* DIGI_LEGALTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIGI_LEGALTests.swift; sourceTree = "<group>"; };
+		F3011A6C1F83634E00091DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3011A711F83634E00091DC1 /* DIGI-LEGALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DIGI-LEGALUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3011A751F83634E00091DC1 /* DIGI_LEGALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIGI_LEGALUITests.swift; sourceTree = "<group>"; };
+		F3011A771F83634E00091DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3011A831F83675700091DC1 /* DIGI-LEGAL-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DIGI-LEGAL-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3011A841F83675800091DC1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F3011A851F83675800091DC1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F3011A871F8378F100091DC1 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		F3011A891F837C0800091DC1 /* RespVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespVo.swift; sourceTree = "<group>"; };
+		F3011A8B1F837E9200091DC1 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Sources/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		F3011A8C1F837E9200091DC1 /* DataTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataTransform.swift; path = Sources/DataTransform.swift; sourceTree = "<group>"; };
+		F3011A8D1F837E9200091DC1 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Sources/DateFormatterTransform.swift; sourceTree = "<group>"; };
+		F3011A8E1F837E9200091DC1 /* DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Sources/DateTransform.swift; sourceTree = "<group>"; };
+		F3011A8F1F837E9200091DC1 /* DictionaryTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DictionaryTransform.swift; path = Sources/DictionaryTransform.swift; sourceTree = "<group>"; };
+		F3011A901F837E9200091DC1 /* EnumOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnumOperators.swift; path = Sources/EnumOperators.swift; sourceTree = "<group>"; };
+		F3011A911F837E9200091DC1 /* EnumTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Sources/EnumTransform.swift; sourceTree = "<group>"; };
+		F3011A921F837E9200091DC1 /* FromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = Sources/FromJSON.swift; sourceTree = "<group>"; };
+		F3011A931F837E9200091DC1 /* HexColorTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Sources/HexColorTransform.swift; sourceTree = "<group>"; };
+		F3011A941F837E9200091DC1 /* ImmutableMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImmutableMappable.swift; path = Sources/ImmutableMappable.swift; sourceTree = "<group>"; };
+		F3011A951F837E9200091DC1 /* IntegerOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntegerOperators.swift; path = Sources/IntegerOperators.swift; sourceTree = "<group>"; };
+		F3011A961F837E9200091DC1 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Sources/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		F3011A971F837E9200091DC1 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Sources/Map.swift; sourceTree = "<group>"; };
+		F3011A981F837E9200091DC1 /* MapError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapError.swift; path = Sources/MapError.swift; sourceTree = "<group>"; };
+		F3011A991F837E9200091DC1 /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = Sources/Mappable.swift; sourceTree = "<group>"; };
+		F3011A9A1F837E9200091DC1 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = Sources/Mapper.swift; sourceTree = "<group>"; };
+		F3011A9B1F837E9200091DC1 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Sources/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		F3011A9C1F837E9200091DC1 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		F3011A9D1F837E9200091DC1 /* ToJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = Sources/ToJSON.swift; sourceTree = "<group>"; };
+		F3011A9E1F837E9200091DC1 /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Sources/TransformOf.swift; sourceTree = "<group>"; };
+		F3011A9F1F837E9200091DC1 /* TransformOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransformOperators.swift; path = Sources/TransformOperators.swift; sourceTree = "<group>"; };
+		F3011AA01F837E9200091DC1 /* TransformType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Sources/TransformType.swift; sourceTree = "<group>"; };
+		F3011AA11F837E9200091DC1 /* URLTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Sources/URLTransform.swift; sourceTree = "<group>"; };
+		F3011AA21F837E9200091DC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3011AA31F837E9200091DC1 /* ObjectMapper.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
+		F3011AA41F837E9200091DC1 /* ObjectMapper.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ObjectMapper.xcconfig; sourceTree = "<group>"; };
+		F3011AA51F837E9200091DC1 /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
+		F3011AA61F837E9200091DC1 /* ObjectMapper-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
+		F3011AA71F837E9200091DC1 /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
+		F3011AC61F839A3100091DC1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3011AC81F839ADD00091DC1 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		F3011ACA1F839BC600091DC1 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		F306E9DD1F88C35D00F87088 /* MyTimeCardsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTimeCardsTableViewCell.swift; sourceTree = "<group>"; };
+		F306E9DF1F88C37800F87088 /* MyTimeCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTimeCardsViewController.swift; sourceTree = "<group>"; };
+		F311C67D1F8FA30C007416F1 /* DownloadShowFilesRespVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadShowFilesRespVo.swift; sourceTree = "<group>"; };
+		F31AC99D1F862E7E0083A2FD /* DownloadGeneralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		F31AC99F1F862EA10083A2FD /* DownloadCaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadCaseTableViewCell.swift; sourceTree = "<group>"; };
+		F32831E81F9B193500423C19 /* SubDownloadRespVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubDownloadRespVo.swift; sourceTree = "<group>"; };
+		F36655DD1FAA3E3E00E58FB6 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F3EF31541F8CDBCB00AF48A9 /* SubRespVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubRespVo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3011A4C1F83634D00091DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36655DE1FAA3E3E00E58FB6 /* EventKit.framework in Frameworks */,
+				181813851F8ABB6100DB498B /* Photos.framework in Frameworks */,
+				181813831F8ABA6A00DB498B /* AssetsLibrary.framework in Frameworks */,
+				4DA30859942B30D5EE4FB939 /* Pods_DIGI_LEGAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3011A631F83634E00091DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBF0168649FF33431499B5E /* Pods_DIGI_LEGALTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3011A6E1F83634E00091DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCED5F95DF5726621A188D6D /* Pods_DIGI_LEGALUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5D8831853DB6DDD5E0D6C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F36655DD1FAA3E3E00E58FB6 /* EventKit.framework */,
+				181813841F8ABB6100DB498B /* Photos.framework */,
+				181813821F8ABA6A00DB498B /* AssetsLibrary.framework */,
+				182FD0427E3684A4D71014E3 /* Pods_DIGI_LEGAL.framework */,
+				D5145DBA125B9F54B89A65DA /* Pods_DIGI_LEGALTests.framework */,
+				D1D414293E557B10EDB0C514 /* Pods_DIGI_LEGALUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		721B197AA59DC8A6C3295F84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD496E570EAD909AE7FB1A94 /* Pods-DIGI-LEGAL.debug.xcconfig */,
+				973B1A04F55C7D1788A2CC06 /* Pods-DIGI-LEGAL.release.xcconfig */,
+				0398DECF5F27850A7D571FF7 /* Pods-DIGI-LEGALTests.debug.xcconfig */,
+				15754FEAA3987D09FF95241C /* Pods-DIGI-LEGALTests.release.xcconfig */,
+				641E9616D4ABA7CE530C9CE5 /* Pods-DIGI-LEGALUITests.debug.xcconfig */,
+				8C3C2B93D2193696736BC428 /* Pods-DIGI-LEGALUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3011A461F83634D00091DC1 = {
+			isa = PBXGroup;
+			children = (
+				F3011A511F83634D00091DC1 /* DIGI-LEGAL */,
+				F3011A691F83634E00091DC1 /* DIGI-LEGALTests */,
+				F3011A741F83634E00091DC1 /* DIGI-LEGALUITests */,
+				F3011A501F83634D00091DC1 /* Products */,
+				721B197AA59DC8A6C3295F84 /* Pods */,
+				3D5D8831853DB6DDD5E0D6C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3011A501F83634D00091DC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3011A4F1F83634D00091DC1 /* DIGI-LEGAL.app */,
+				F3011A661F83634E00091DC1 /* DIGI-LEGALTests.xctest */,
+				F3011A711F83634E00091DC1 /* DIGI-LEGALUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3011A511F83634D00091DC1 /* DIGI-LEGAL */ = {
+			isa = PBXGroup;
+			children = (
+				F3011AA91F837E9200091DC1 /* ObjectMapper */,
+				F3011A841F83675800091DC1 /* SWRevealViewController.h */,
+				F3011A851F83675800091DC1 /* SWRevealViewController.m */,
+				18CE91D81F8B710D00E576CD /* NoCopyPasteUITextField.swift */,
+				180876B81F85260E0080365A /* Toast.swift */,
+				18CE91DA1F8B713A00E576CD /* TextFieldMaxLengths.swift */,
+				F3011A521F83634D00091DC1 /* AppDelegate.swift */,
+				F3011A541F83634D00091DC1 /* ViewController.swift */,
+				F3011AC61F839A3100091DC1 /* HomeViewController.swift */,
+				F3011A891F837C0800091DC1 /* RespVo.swift */,
+				F3011AC81F839ADD00091DC1 /* SideMenuTableViewCell.swift */,
+				182917001F8512AF00B0A24F /* UploadTableViewCell.swift */,
+				F3011A871F8378F100091DC1 /* SideMenuViewController.swift */,
+				182917021F8512BB00B0A24F /* DownloadTableViewCell.swift */,
+				F3011ACA1F839BC600091DC1 /* CalendarViewController.swift */,
+				181813801F8AB65A00DB498B /* CalendarTableViewCell.swift */,
+				180876B01F8522350080365A /* UploadGeneralViewController.swift */,
+				180876B21F85226B0080365A /* UploadCaseViewController.swift */,
+				180876B41F8522830080365A /* DownloadGeneralViewController.swift */,
+				F31AC99D1F862E7E0083A2FD /* DownloadGeneralTableViewCell.swift */,
+				180876B61F8522910080365A /* DownloadCaseViewController.swift */,
+				F31AC99F1F862EA10083A2FD /* DownloadCaseTableViewCell.swift */,
+				18D0A7381F8643F2002A5963 /* CustomAlertViewController.swift */,
+				18D0A73A1F864FBD002A5963 /* CustomSecondAlertViewController.swift */,
+				F306E9DF1F88C37800F87088 /* MyTimeCardsViewController.swift */,
+				F306E9DD1F88C35D00F87088 /* MyTimeCardsTableViewCell.swift */,
+				189824F81F8FF1EE00EF06B0 /* CalendarRespVo.swift */,
+				1887188B1F9DD57E0046D4E0 /* SubCalendarRespVo.swift */,
+				F3EF31541F8CDBCB00AF48A9 /* SubRespVo.swift */,
+				F311C67D1F8FA30C007416F1 /* DownloadShowFilesRespVo.swift */,
+				F32831E81F9B193500423C19 /* SubDownloadRespVo.swift */,
+				F3011A561F83634D00091DC1 /* Main.storyboard */,
+				F3011A5C1F83634D00091DC1 /* Assets.xcassets */,
+				F3011A5E1F83634D00091DC1 /* LaunchScreen.storyboard */,
+				F3011A611F83634D00091DC1 /* Info.plist */,
+				F3011A591F83634D00091DC1 /* DIGI_LEGAL.xcdatamodeld */,
+				F3011A831F83675700091DC1 /* DIGI-LEGAL-Bridging-Header.h */,
+			);
+			path = "DIGI-LEGAL";
+			sourceTree = "<group>";
+		};
+		F3011A691F83634E00091DC1 /* DIGI-LEGALTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3011A6A1F83634E00091DC1 /* DIGI_LEGALTests.swift */,
+				F3011A6C1F83634E00091DC1 /* Info.plist */,
+			);
+			path = "DIGI-LEGALTests";
+			sourceTree = "<group>";
+		};
+		F3011A741F83634E00091DC1 /* DIGI-LEGALUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3011A751F83634E00091DC1 /* DIGI_LEGALUITests.swift */,
+				F3011A771F83634E00091DC1 /* Info.plist */,
+			);
+			path = "DIGI-LEGALUITests";
+			sourceTree = "<group>";
+		};
+		F3011AA81F837E9200091DC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3011AA21F837E9200091DC1 /* Info.plist */,
+				F3011AA31F837E9200091DC1 /* ObjectMapper.modulemap */,
+				F3011AA41F837E9200091DC1 /* ObjectMapper.xcconfig */,
+				F3011AA51F837E9200091DC1 /* ObjectMapper-dummy.m */,
+				F3011AA61F837E9200091DC1 /* ObjectMapper-prefix.pch */,
+				F3011AA71F837E9200091DC1 /* ObjectMapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ObjectMapper";
+			sourceTree = "<group>";
+		};
+		F3011AA91F837E9200091DC1 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				F3011A8B1F837E9200091DC1 /* CustomDateFormatTransform.swift */,
+				F3011A8C1F837E9200091DC1 /* DataTransform.swift */,
+				F3011A8D1F837E9200091DC1 /* DateFormatterTransform.swift */,
+				F3011A8E1F837E9200091DC1 /* DateTransform.swift */,
+				F3011A8F1F837E9200091DC1 /* DictionaryTransform.swift */,
+				F3011A901F837E9200091DC1 /* EnumOperators.swift */,
+				F3011A911F837E9200091DC1 /* EnumTransform.swift */,
+				F3011A921F837E9200091DC1 /* FromJSON.swift */,
+				F3011A931F837E9200091DC1 /* HexColorTransform.swift */,
+				F3011A941F837E9200091DC1 /* ImmutableMappable.swift */,
+				F3011A951F837E9200091DC1 /* IntegerOperators.swift */,
+				F3011A961F837E9200091DC1 /* ISO8601DateTransform.swift */,
+				F3011A971F837E9200091DC1 /* Map.swift */,
+				F3011A981F837E9200091DC1 /* MapError.swift */,
+				F3011A991F837E9200091DC1 /* Mappable.swift */,
+				F3011A9A1F837E9200091DC1 /* Mapper.swift */,
+				F3011A9B1F837E9200091DC1 /* NSDecimalNumberTransform.swift */,
+				F3011A9C1F837E9200091DC1 /* Operators.swift */,
+				F3011A9D1F837E9200091DC1 /* ToJSON.swift */,
+				F3011A9E1F837E9200091DC1 /* TransformOf.swift */,
+				F3011A9F1F837E9200091DC1 /* TransformOperators.swift */,
+				F3011AA01F837E9200091DC1 /* TransformType.swift */,
+				F3011AA11F837E9200091DC1 /* URLTransform.swift */,
+				F3011AA81F837E9200091DC1 /* Support Files */,
+			);
+			name = ObjectMapper;
+			path = ../Pods/ObjectMapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3011A4E1F83634D00091DC1 /* DIGI-LEGAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3011A7A1F83634E00091DC1 /* Build configuration list for PBXNativeTarget "DIGI-LEGAL" */;
+			buildPhases = (
+				01CF8C2982D2A5B87418DDA1 /* [CP] Check Pods Manifest.lock */,
+				F3011A4B1F83634D00091DC1 /* Sources */,
+				F3011A4C1F83634D00091DC1 /* Frameworks */,
+				F3011A4D1F83634D00091DC1 /* Resources */,
+				F6032566F8696163FDA48A22 /* [CP] Embed Pods Frameworks */,
+				CC2422F164FDB57D786FB702 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DIGI-LEGAL";
+			productName = "DIGI-LEGAL";
+			productReference = F3011A4F1F83634D00091DC1 /* DIGI-LEGAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3011A651F83634E00091DC1 /* DIGI-LEGALTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3011A7D1F83634E00091DC1 /* Build configuration list for PBXNativeTarget "DIGI-LEGALTests" */;
+			buildPhases = (
+				562A66F4B03B2A4A38A1236D /* [CP] Check Pods Manifest.lock */,
+				F3011A621F83634E00091DC1 /* Sources */,
+				F3011A631F83634E00091DC1 /* Frameworks */,
+				F3011A641F83634E00091DC1 /* Resources */,
+				961BDDCD3D075936DA7B3668 /* [CP] Embed Pods Frameworks */,
+				783F6BC8E262C568BB325F81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3011A681F83634E00091DC1 /* PBXTargetDependency */,
+			);
+			name = "DIGI-LEGALTests";
+			productName = "DIGI-LEGALTests";
+			productReference = F3011A661F83634E00091DC1 /* DIGI-LEGALTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3011A701F83634E00091DC1 /* DIGI-LEGALUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3011A801F83634E00091DC1 /* Build configuration list for PBXNativeTarget "DIGI-LEGALUITests" */;
+			buildPhases = (
+				3223EC47289C5C1C64F2C879 /* [CP] Check Pods Manifest.lock */,
+				F3011A6D1F83634E00091DC1 /* Sources */,
+				F3011A6E1F83634E00091DC1 /* Frameworks */,
+				F3011A6F1F83634E00091DC1 /* Resources */,
+				D1396E865A860B7D1EB05DB2 /* [CP] Embed Pods Frameworks */,
+				500B2807196163DEE709714E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3011A731F83634E00091DC1 /* PBXTargetDependency */,
+			);
+			name = "DIGI-LEGALUITests";
+			productName = "DIGI-LEGALUITests";
+			productReference = F3011A711F83634E00091DC1 /* DIGI-LEGALUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3011A471F83634D00091DC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sunkpo;
+				TargetAttributes = {
+					F3011A4E1F83634D00091DC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WCD3U62HEY;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					F3011A651F83634E00091DC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XGNG3P39B7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3011A4E1F83634D00091DC1;
+					};
+					F3011A701F83634E00091DC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XGNG3P39B7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3011A4E1F83634D00091DC1;
+					};
+				};
+			};
+			buildConfigurationList = F3011A4A1F83634D00091DC1 /* Build configuration list for PBXProject "DIGI-LEGAL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3011A461F83634D00091DC1;
+			productRefGroup = F3011A501F83634D00091DC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3011A4E1F83634D00091DC1 /* DIGI-LEGAL */,
+				F3011A651F83634E00091DC1 /* DIGI-LEGALTests */,
+				F3011A701F83634E00091DC1 /* DIGI-LEGALUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3011A4D1F83634D00091DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3011AC11F837E9200091DC1 /* Info.plist in Resources */,
+				F3011A601F83634D00091DC1 /* LaunchScreen.storyboard in Resources */,
+				F3011A5D1F83634D00091DC1 /* Assets.xcassets in Resources */,
+				F3011A581F83634D00091DC1 /* Main.storyboard in Resources */,
+				F3011AC21F837E9200091DC1 /* ObjectMapper.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3011A641F83634E00091DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3011A6F1F83634E00091DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01CF8C2982D2A5B87418DDA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DIGI-LEGAL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3223EC47289C5C1C64F2C879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DIGI-LEGALUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		500B2807196163DEE709714E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGI-LEGALUITests/Pods-DIGI-LEGALUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562A66F4B03B2A4A38A1236D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DIGI-LEGALTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		783F6BC8E262C568BB325F81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGI-LEGALTests/Pods-DIGI-LEGALTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961BDDCD3D075936DA7B3668 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGI-LEGALTests/Pods-DIGI-LEGALTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2422F164FDB57D786FB702 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGI-LEGAL/Pods-DIGI-LEGAL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1396E865A860B7D1EB05DB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGI-LEGALUITests/Pods-DIGI-LEGALUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6032566F8696163FDA48A22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DIGI-LEGAL/Pods-DIGI-LEGAL-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/JBDatePicker/JBDatePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JBDatePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGI-LEGAL/Pods-DIGI-LEGAL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3011A4B1F83634D00091DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3011A551F83634D00091DC1 /* ViewController.swift in Sources */,
+				F3011AB81F837E9200091DC1 /* Mappable.swift in Sources */,
+				F3011ACB1F839BC600091DC1 /* CalendarViewController.swift in Sources */,
+				F3011A531F83634D00091DC1 /* AppDelegate.swift in Sources */,
+				180876B71F8522910080365A /* DownloadCaseViewController.swift in Sources */,
+				F3011AB41F837E9200091DC1 /* IntegerOperators.swift in Sources */,
+				18CE91DB1F8B713A00E576CD /* TextFieldMaxLengths.swift in Sources */,
+				182917031F8512BB00B0A24F /* DownloadTableViewCell.swift in Sources */,
+				F3011AB91F837E9200091DC1 /* Mapper.swift in Sources */,
+				18D0A7391F8643F2002A5963 /* CustomAlertViewController.swift in Sources */,
+				F3011A8A1F837C0800091DC1 /* RespVo.swift in Sources */,
+				182917011F8512AF00B0A24F /* UploadTableViewCell.swift in Sources */,
+				F3011AB21F837E9200091DC1 /* HexColorTransform.swift in Sources */,
+				F3011AB71F837E9200091DC1 /* MapError.swift in Sources */,
+				F3011AC91F839ADD00091DC1 /* SideMenuTableViewCell.swift in Sources */,
+				F306E9E01F88C37800F87088 /* MyTimeCardsViewController.swift in Sources */,
+				F3011AB31F837E9200091DC1 /* ImmutableMappable.swift in Sources */,
+				F306E9DE1F88C35D00F87088 /* MyTimeCardsTableViewCell.swift in Sources */,
+				F3011AB01F837E9200091DC1 /* EnumTransform.swift in Sources */,
+				F3011AAA1F837E9200091DC1 /* CustomDateFormatTransform.swift in Sources */,
+				18CE91D91F8B710D00E576CD /* NoCopyPasteUITextField.swift in Sources */,
+				180876B91F85260E0080365A /* Toast.swift in Sources */,
+				F3011AAB1F837E9200091DC1 /* DataTransform.swift in Sources */,
+				181813811F8AB65A00DB498B /* CalendarTableViewCell.swift in Sources */,
+				189824F91F8FF1EE00EF06B0 /* CalendarRespVo.swift in Sources */,
+				F3011AB61F837E9200091DC1 /* Map.swift in Sources */,
+				F3011AAC1F837E9200091DC1 /* DateFormatterTransform.swift in Sources */,
+				F3011AAD1F837E9200091DC1 /* DateTransform.swift in Sources */,
+				F31AC99E1F862E7E0083A2FD /* DownloadGeneralTableViewCell.swift in Sources */,
+				F3011ABD1F837E9200091DC1 /* TransformOf.swift in Sources */,
+				F3EF31551F8CDBCB00AF48A9 /* SubRespVo.swift in Sources */,
+				F3011ABE1F837E9200091DC1 /* TransformOperators.swift in Sources */,
+				F3011A5B1F83634D00091DC1 /* DIGI_LEGAL.xcdatamodeld in Sources */,
+				F3011A881F8378F100091DC1 /* SideMenuViewController.swift in Sources */,
+				F3011ABB1F837E9200091DC1 /* Operators.swift in Sources */,
+				F3011ABC1F837E9200091DC1 /* ToJSON.swift in Sources */,
+				F3011AAE1F837E9200091DC1 /* DictionaryTransform.swift in Sources */,
+				F3011AC01F837E9200091DC1 /* URLTransform.swift in Sources */,
+				F3011AAF1F837E9200091DC1 /* EnumOperators.swift in Sources */,
+				F31AC9A01F862EA10083A2FD /* DownloadCaseTableViewCell.swift in Sources */,
+				F3011AB51F837E9200091DC1 /* ISO8601DateTransform.swift in Sources */,
+				F3011ABF1F837E9200091DC1 /* TransformType.swift in Sources */,
+				180876B51F8522830080365A /* DownloadGeneralViewController.swift in Sources */,
+				180876B11F8522350080365A /* UploadGeneralViewController.swift in Sources */,
+				F3011AC71F839A3100091DC1 /* HomeViewController.swift in Sources */,
+				F3011AC31F837E9200091DC1 /* ObjectMapper-dummy.m in Sources */,
+				F311C67E1F8FA30C007416F1 /* DownloadShowFilesRespVo.swift in Sources */,
+				F3011A861F83675800091DC1 /* SWRevealViewController.m in Sources */,
+				F32831E91F9B193500423C19 /* SubDownloadRespVo.swift in Sources */,
+				1887188C1F9DD57E0046D4E0 /* SubCalendarRespVo.swift in Sources */,
+				180876B31F85226B0080365A /* UploadCaseViewController.swift in Sources */,
+				18D0A73B1F864FBD002A5963 /* CustomSecondAlertViewController.swift in Sources */,
+				F3011AB11F837E9200091DC1 /* FromJSON.swift in Sources */,
+				F3011ABA1F837E9200091DC1 /* NSDecimalNumberTransform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3011A621F83634E00091DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3011A6B1F83634E00091DC1 /* DIGI_LEGALTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3011A6D1F83634E00091DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3011A761F83634E00091DC1 /* DIGI_LEGALUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3011A681F83634E00091DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3011A4E1F83634D00091DC1 /* DIGI-LEGAL */;
+			targetProxy = F3011A671F83634E00091DC1 /* PBXContainerItemProxy */;
+		};
+		F3011A731F83634E00091DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3011A4E1F83634D00091DC1 /* DIGI-LEGAL */;
+			targetProxy = F3011A721F83634E00091DC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3011A561F83634D00091DC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3011A571F83634D00091DC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3011A5E1F83634D00091DC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3011A5F1F83634D00091DC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3011A781F83634E00091DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3011A791F83634E00091DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3011A7B1F83634E00091DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD496E570EAD909AE7FB1A94 /* Pods-DIGI-LEGAL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = WCD3U62HEY;
+				INFOPLIST_FILE = "DIGI-LEGAL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sunkpo.DIGI-LEGAL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DIGI-LEGAL/DIGI-LEGAL-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F3011A7C1F83634E00091DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973B1A04F55C7D1788A2CC06 /* Pods-DIGI-LEGAL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = WCD3U62HEY;
+				INFOPLIST_FILE = "DIGI-LEGAL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sunkpo.DIGI-LEGAL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DIGI-LEGAL/DIGI-LEGAL-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F3011A7E1F83634E00091DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0398DECF5F27850A7D571FF7 /* Pods-DIGI-LEGALTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XGNG3P39B7;
+				INFOPLIST_FILE = "DIGI-LEGALTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sunkpo.DIGI-LEGALTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DIGI-LEGAL.app/DIGI-LEGAL";
+			};
+			name = Debug;
+		};
+		F3011A7F1F83634E00091DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15754FEAA3987D09FF95241C /* Pods-DIGI-LEGALTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XGNG3P39B7;
+				INFOPLIST_FILE = "DIGI-LEGALTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sunkpo.DIGI-LEGALTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DIGI-LEGAL.app/DIGI-LEGAL";
+			};
+			name = Release;
+		};
+		F3011A811F83634E00091DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641E9616D4ABA7CE530C9CE5 /* Pods-DIGI-LEGALUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XGNG3P39B7;
+				INFOPLIST_FILE = "DIGI-LEGALUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sunkpo.DIGI-LEGALUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DIGI-LEGAL";
+			};
+			name = Debug;
+		};
+		F3011A821F83634E00091DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3C2B93D2193696736BC428 /* Pods-DIGI-LEGALUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XGNG3P39B7;
+				INFOPLIST_FILE = "DIGI-LEGALUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sunkpo.DIGI-LEGALUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DIGI-LEGAL";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3011A4A1F83634D00091DC1 /* Build configuration list for PBXProject "DIGI-LEGAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3011A781F83634E00091DC1 /* Debug */,
+				F3011A791F83634E00091DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3011A7A1F83634E00091DC1 /* Build configuration list for PBXNativeTarget "DIGI-LEGAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3011A7B1F83634E00091DC1 /* Debug */,
+				F3011A7C1F83634E00091DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3011A7D1F83634E00091DC1 /* Build configuration list for PBXNativeTarget "DIGI-LEGALTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3011A7E1F83634E00091DC1 /* Debug */,
+				F3011A7F1F83634E00091DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3011A801F83634E00091DC1 /* Build configuration list for PBXNativeTarget "DIGI-LEGALUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3011A811F83634E00091DC1 /* Debug */,
+				F3011A821F83634E00091DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3011A591F83634D00091DC1 /* DIGI_LEGAL.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3011A5A1F83634D00091DC1 /* DIGI_LEGAL.xcdatamodel */,
+			);
+			currentVersion = F3011A5A1F83634D00091DC1 /* DIGI_LEGAL.xcdatamodel */;
+			path = DIGI_LEGAL.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3011A471F83634D00091DC1 /* Project object */;
+}

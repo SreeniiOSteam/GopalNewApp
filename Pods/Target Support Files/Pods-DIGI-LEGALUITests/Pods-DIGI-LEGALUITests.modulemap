@@ -1,0 +1,6 @@
+framework module Pods_DIGI_LEGALUITests {
+  umbrella header "Pods-DIGI-LEGALUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
